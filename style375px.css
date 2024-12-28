@@ -1,0 +1,131 @@
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 37.5rem;
+    padding: 0 3.2rem;
+  }
+
+  /* === BUTTONS === */
+
+  .btn {
+    width: 100%;
+  }
+
+  /* === REUSABLE === */
+  .btn-container {
+    width: 37.5rem;
+    padding: 0 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  /* === TYPOGRAPHY === */
+  .main-heading {
+    font-size: 3.2rem;
+    letter-spacing: -0.52px;
+  }
+
+  .second-heading {
+    font-size: 2.8rem;
+    letter-spacing: -0.48px;
+  }
+
+  .paragraph--section-1 {
+    font-size: 1.6rem;
+
+    letter-spacing: 0.12px;
+    line-height: 26px;
+  }
+
+  /* === HEADER SECTION */
+
+  .header-section {
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    padding-top: 12.3rem;
+  }
+
+  .header-section-container h1 {
+    padding-top: 6.4rem;
+    text-align: center;
+  }
+
+  .paragraph {
+    font-size: 1.6rem;
+    color: #9eabb2;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    line-height: 26px;
+  }
+
+  /* === SECTION 1 === */
+
+  .section-1-content img {
+    translate: 0;
+  }
+
+  .section-1-content {
+    flex-direction: column;
+  }
+
+  .section-1-content-text {
+    text-align: center;
+  }
+
+  /* === SECTION 3 === */
+
+  .section-3-header {
+    text-align: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+    padding: 0;
+    gap: 5.6rem;
+  }
+
+  /* === SECTION 4 === */
+
+  .section-4 {
+    margin: 13.1rem 0 17rem 0;
+    flex-direction: column;
+    gap: 7.2rem;
+  }
+
+  /* === SECTION 5 === */
+
+  .section-5 {
+    text-align: center;
+  }
+
+  /* === FOOTER SECTION === */
+  .footer-section {
+    padding: 3.9rem 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .footer-link {
+    margin-top: 40px;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 2rem;
+  }
+
+  .footer-link--style {
+    gap: 2rem;
+  }
+
+  .social-media-logo {
+    margin-top: 4.8rem;
+    margin-left: 0;
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+}
